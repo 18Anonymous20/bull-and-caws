@@ -30,4 +30,6 @@ def game():
             print('Количество быков:', count_b)
             print('Количество коров:', count_k)
             list_win.clear()
+            count_b = 0
+            count_k = 0
 game()
